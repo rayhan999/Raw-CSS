@@ -1,0 +1,73 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    .container {
+        margin: 10px;
+        padding: 10px;
+        background-color: $container-bg-color;
+        // height: 100vh;
+        @include gridValue(110px, 6, 15px);
+    }
+    .box {
+        background-color: $box-bg-color;
+        color: $box-color;
+        font-size: 4rem;
+        font-weight: bold;
+        @include flexValue();
+    }
+    .one{
+        @include gridDesign(0,1 , 3, auto,auto ,auto);
+    }
+    .sixteen{
+        @include gridDesign(110px,4 , 7, auto,auto ,center);
+    }
+    .twenty-one{
+        @include gridDesign(110px,7 , 9, auto,auto ,left);
+    }
+    .twenty{
+        @include gridDesign(110px,2 , 9, auto,auto ,left);
+    }
+    .seven{
+        @include gridDesign(0,9 , 10, 2,4 ,auto);
+    }
+    .six{
+        @include gridDesign(110px,1 , 3, auto,auto ,right);
+    }
+    .twenty-two{
+        @include gridDesign(110px,3 , 9, auto,auto ,left);
+    }
+    .nine{
+        width: 50%;
+    }
+    .twenty-four{
+        @include gridDesign(0,2 , 3, 4,6 ,auto);
+    }
+    .four{
+        @include gridDesign(110px,3 , -1, auto,auto ,left);
+    }
+    .nineteen{
+        @include gridDesign(110px,3 , 7, auto,auto ,right);
+    }
+    .three{
+        @include gridDesign(0,7 , 9, auto,auto ,right);
+        width: 30%;
+    }
+    .eighteen{
+        @include gridDesign(110px,9 , -1, auto,auto ,right);
+    }
+    .seventeen{
+        @include gridDesign(110px,3 , 5, auto,auto ,right);
+    }
+    .five-one{
+        @include gridDesign(0,5 , 7, auto,auto ,auto);
+    }
+    .five-two{
+        @include gridDesign(110px,7 , -1, auto,auto ,right);
+    }
+}

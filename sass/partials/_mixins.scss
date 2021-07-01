@@ -1,0 +1,20 @@
+@mixin gridValue($minValue, $rowNumber,$gap){
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax($minValue, 1fr));
+    grid-template-rows: repeat($rowNumber, 1fr);
+    grid-gap: $gap;
+}
+@mixin flexValue(){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin gridDesign($minWidth , $gridColStart, $gridColEnd,$gridRowStart,$gridRowEnd ,$justify){
+    min-width: $minWidth;
+    grid-column-start: $gridColStart;
+    grid-column-end: $gridColEnd;
+    grid-row-start: $gridRowStart;
+    grid-row-end: $gridRowEnd;
+    justify-self: $justify;
+}

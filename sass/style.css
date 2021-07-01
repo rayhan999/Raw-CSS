@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .container {
+  margin: 10px;
+  padding: 10px;
+  background-color: #004B8C;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(110px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  grid-gap: 15px;
+}
+
+main .box {
+  background-color: #7AADC1;
+  color: #183651;
+  font-size: 4rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .one {
+  min-width: 0;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: auto;
+      justify-self: auto;
+}
+
+main .sixteen {
+  min-width: 110px;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 7;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+main .twenty-one {
+  min-width: 110px;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 9;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+main .twenty {
+  min-width: 110px;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 9;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+main .seven {
+  min-width: 0;
+  -ms-grid-column: 9;
+      grid-column-start: 9;
+  grid-column-end: 10;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+  -ms-grid-column-align: auto;
+      justify-self: auto;
+}
+
+main .six {
+  min-width: 110px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
+main .twenty-two {
+  min-width: 110px;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 9;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+main .nine {
+  width: 50%;
+}
+
+main .twenty-four {
+  min-width: 0;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 6;
+  -ms-grid-column-align: auto;
+      justify-self: auto;
+}
+
+main .four {
+  min-width: 110px;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: -1;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+main .nineteen {
+  min-width: 110px;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 7;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
+main .three {
+  min-width: 0;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 9;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: right;
+      justify-self: right;
+  width: 30%;
+}
+
+main .eighteen {
+  min-width: 110px;
+  -ms-grid-column: 9;
+      grid-column-start: 9;
+  grid-column-end: -1;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
+main .seventeen {
+  min-width: 110px;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
+main .five-one {
+  min-width: 0;
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 7;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: auto;
+      justify-self: auto;
+}
+
+main .five-two {
+  min-width: 110px;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: -1;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  grid-row-end: auto;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+/*# sourceMappingURL=style.css.map */
