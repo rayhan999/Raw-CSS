@@ -1,0 +1,1 @@
+<img src="sass/asset/img/ss.png" alt="" />
