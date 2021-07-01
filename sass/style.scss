@@ -11,7 +11,7 @@ main {
         margin: 10px;
         padding: 10px;
         background-color: $container-bg-color;
-        // height: 100vh;
+        height: 100vh;
         @include gridValue(110px, 6, 15px);
     }
     .box {
