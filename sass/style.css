@@ -39,9 +39,10 @@ main .box {
 
 main .one {
   min-width: 0;
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -51,9 +52,10 @@ main .one {
 
 main .sixteen {
   min-width: 110px;
-  -ms-grid-column: 4;
-      grid-column-start: 4;
-  grid-column-end: 7;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 3;
+      grid-column-end: span 3;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -63,9 +65,10 @@ main .sixteen {
 
 main .twenty-one {
   min-width: 110px;
-  -ms-grid-column: 7;
-      grid-column-start: 7;
-  grid-column-end: 9;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -75,9 +78,10 @@ main .twenty-one {
 
 main .twenty {
   min-width: 110px;
-  -ms-grid-column: 2;
-      grid-column-start: 2;
-  grid-column-end: 9;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 7;
+      grid-column-end: span 7;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -87,21 +91,23 @@ main .twenty {
 
 main .seven {
   min-width: 0;
-  -ms-grid-column: 9;
-      grid-column-start: 9;
-  grid-column-end: 10;
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  grid-row-end: 4;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  grid-column-end: auto;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  -ms-grid-row-span: 2;
+      grid-row-end: span 2;
   -ms-grid-column-align: auto;
       justify-self: auto;
 }
 
 main .six {
   min-width: 110px;
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -111,9 +117,10 @@ main .six {
 
 main .twenty-two {
   min-width: 110px;
-  -ms-grid-column: 3;
-      grid-column-start: 3;
-  grid-column-end: 9;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 6;
+      grid-column-end: span 6;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -127,21 +134,23 @@ main .nine {
 
 main .twenty-four {
   min-width: 0;
-  -ms-grid-column: 2;
-      grid-column-start: 2;
-  grid-column-end: 3;
-  -ms-grid-row: 4;
-      grid-row-start: 4;
-  grid-row-end: 6;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  grid-column-end: auto;
+  -ms-grid-row: auto;
+      grid-row-start: auto;
+  -ms-grid-row-span: 2;
+      grid-row-end: span 2;
   -ms-grid-column-align: auto;
       justify-self: auto;
 }
 
 main .four {
   min-width: 110px;
-  -ms-grid-column: 3;
-      grid-column-start: 3;
-  grid-column-end: -1;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 7;
+      grid-column-end: span 7;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -151,9 +160,10 @@ main .four {
 
 main .nineteen {
   min-width: 110px;
-  -ms-grid-column: 3;
-      grid-column-start: 3;
-  grid-column-end: 7;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 4;
+      grid-column-end: span 4;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -163,9 +173,10 @@ main .nineteen {
 
 main .three {
   min-width: 0;
-  -ms-grid-column: 7;
-      grid-column-start: 7;
-  grid-column-end: 9;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -176,8 +187,8 @@ main .three {
 
 main .eighteen {
   min-width: 110px;
-  -ms-grid-column: 9;
-      grid-column-start: 9;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
   grid-column-end: -1;
   -ms-grid-row: auto;
       grid-row-start: auto;
@@ -188,9 +199,10 @@ main .eighteen {
 
 main .seventeen {
   min-width: 110px;
-  -ms-grid-column: 3;
-      grid-column-start: 3;
-  grid-column-end: 5;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -200,9 +212,10 @@ main .seventeen {
 
 main .five-one {
   min-width: 0;
-  -ms-grid-column: 5;
-      grid-column-start: 5;
-  grid-column-end: 7;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
   -ms-grid-row: auto;
       grid-row-start: auto;
   grid-row-end: auto;
@@ -212,8 +225,8 @@ main .five-one {
 
 main .five-two {
   min-width: 110px;
-  -ms-grid-column: 7;
-      grid-column-start: 7;
+  -ms-grid-column: auto;
+      grid-column-start: auto;
   grid-column-end: -1;
   -ms-grid-row: auto;
       grid-row-start: auto;
